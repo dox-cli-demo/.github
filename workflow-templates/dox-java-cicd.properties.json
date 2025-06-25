@@ -1,0 +1,12 @@
+{
+    "name": "Java CI/CD Pipeline",
+    "description": "This CI/CD pipeline automates the build and deployment of Java applications. It builds your project, creates and pushes Docker images, generates Helm charts, and deploys the application to a Kubernetes cluster based on your branching strategy.",
+    "iconName": "springboot",
+    "categories": [
+      "Java"
+    ],
+    "filePatterns": [
+      "pom.xml"
+    ]
+  }
+  
