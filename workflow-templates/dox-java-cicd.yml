@@ -10,5 +10,5 @@ on:
 jobs:
   call-dox-java-cicd:
     uses: dox-cli-demo/dox-github-actions/.github/workflows/dox-java-cicd.yml@main
-    with:
-      jdk_version: 17
+#    with:
+#      jdk_version: 17
