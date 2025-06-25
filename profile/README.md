@@ -1,11 +1,3 @@
-Thanks for the clarification!
-
-You’re using an **organization-level `.github` repository** to define reusable GitHub Actions workflows, which **delegate** to the actual implementation in the `dox-github-actions` repo.
-
-Below is the updated and **fully rewritten `README.md`** that includes the `.github` organization-level template repository setup and its relationship with `dox-github-actions`.
-
----
-
 # 🚀 DOX GitOps + CI/CD Platform Setup
 
 This repository documents the complete setup of a GitOps + GitHub Actions-based CI/CD platform using **Argo CD**, **custom GitHub runners**, and **templated pipelines**, powered by the DOX framework.
