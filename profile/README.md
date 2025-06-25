@@ -209,8 +209,3 @@ jobs:
 ## 📬 Support
 
 Raise an issue in the respective repository or reach out via internal DevOps Slack channel.
-
----
-
-Let me know if you'd like this split into `docs/` with diagrams and folder examples or a full scaffolded GitHub Actions + Argo CD setup in a zip.
-
