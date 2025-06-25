@@ -11,10 +11,4 @@ jobs:
   call-dox-java-cicd:
     uses: dox-cli-demo/dox-github-actions/.github/workflows/dox-java-cicd.yml@main
     with:
-      oci_reg_host: ${{ vars.OCI_REG_HOST }}
-      oci_reg_user: ${{ vars.OCI_REG_USER }}
-      docker_image_push_prefix: ${{ vars.DOCKER_IMAGE_PUSH_PREFIX }}
-      gitops_repository: ${{ vars.GITOPS_REPO }}
-    secrets:
-      oci_reg_password: ${{ secrets.OCI_REG_PASSWORD }}
-      gitops_pat: ${{ secrets.GITOPS_PAT }}
+      jdk_version: 17
